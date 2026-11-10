@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnovApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Innov<span>App</span></h2>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#solucoes">Soluções</a>
+            <a href="#planos">Planos</a>
+            <a href="#contato" class="botao">Solicitar agora</a>
+        </nav>
+    </header>
+    <section class="inicio" id="inicio">
+        <img src="imagem1.jpg" alt="Equipe InnovApp">
+        <div class="apresentacao">
+            <p>TECNOLOGIA E INOVAÇÃO</p>
+            <h1>Tecnologia que impulsiona o seu negócio.</h1>
+            <p>Desenvolvemos soluções digitais para transformar ideias em resultados.</p>
+            <a href="#servicos" class="botao">Conheça nossos serviços</a>
+        </div>
+    </section>
+    <section class="secao" id="servicos">
+        <h2>Nossos serviços</h2>
+        <p>Ideias que se transformam em soluções.</p>
+
+        <div class="carrossel">
+            <input type="radio" name="servico" id="s1" checked>
+            <input type="radio" name="servico" id="s2">
+            <input type="radio" name="servico" id="s3">
+
+            <div class="slides">
+                <div class="slide servico1">
+                    <img src="imagem2.jpg" alt="Desenvolvimento">
+                    <h3>Desenvolvimento</h3>
+                    <p>Sites e sistemas para facilitar sua empresa.</p>
+                    <label for="s3" class="esquerda">&#10094;</label>
+                    <label for="s2" class="direita">&#10095;</label>
+                </div>
+
+                <div class="slide servico2">
+                    <img src="imagem3.jpg" alt="Automação">
+                    <h3>Automação</h3>
+                    <p>Processos mais rápidos e eficientes.</p>
+                    <label for="s1" class="esquerda">&#10094;</label>
+                    <label for="s3" class="direita">&#10095;</label>
+                </div>
+
+                <div class="slide servico3">
+                    <img src="imagem4.jpg" alt="Consultoria">
+                    <h3>Consultoria</h3>
+                    <p>Orientação para melhorar seu negócio.</p>
+                    <label for="s2" class="esquerda">&#10094;</label>
+                    <label for="s1" class="direita">&#10095;</label>
+                </div>
+            </div>
+
+            <div class="pontos">
+                <label for="s1"></label>
+                <label for="s2"></label>
+                <label for="s3"></label>
+            </div>
+        </div>
+    </section>
+    <section class="sobre">
+        <p>QUEM SOMOS</p>
+        <h2>Innov<span>App</span></h2>
+        <img src="imagem5.jpg" alt="Soluções InnovApp">
+        <p>A InnovApp cria soluções digitais inovadoras, desenvolvendo aplicativos e sistemas para simplificar processos e impulsionar negócios.</p>
+        <a href="#solucoes" class="botao">Saiba mais</a>
+    </section>
+    <section class="secao" id="solucoes">
+        <h2>Demonstração das Plataformas</h2>
+        <p>Confira a interface das nossas soluções</p>
+
+        <div class="carrossel carrossel-telas">
+            <input type="radio" name="tela" id="t1" checked>
+            <input type="radio" name="tela" id="t2">
+            <input type="radio" name="tela" id="t3">
+
+            <div class="slides">
+                <div class="slide tela1">
+                    <img src="imagem6.jpg" alt="Demonstração 1">
+                    <p>Interface e ferramentas digitais</p>
+                    <label for="t3" class="esquerda">&#10094;</label>
+                    <label for="t2" class="direita">&#10095;</label>
+                </div>
+
+                <div class="slide tela2">
+                    <img src="imagem7.jpg" alt="Demonstração 2">
+                    <p>Sistemas organizados e integrados</p>
+                    <label for="t1" class="esquerda">&#10094;</label>
+                    <label for="t3" class="direita">&#10095;</label>
+                </div>
+
+                <div class="slide tela3">
+                    <img src="imagem8.jpg" alt="Demonstração 3">
+                    <p>Tecnologia para o seu negócio</p>
+                    <label for="t2" class="esquerda">&#10094;</label>
+                    <label for="t1" class="direita">&#10095;</label>
+                </div>
+            </div>
+
+            <div class="pontos">
+                <label for="t1"></label>
+                <label for="t2"></label>
+                <label for="t3"></label>
+            </div>
+        </div>
+    </section>
+    <section class="secao" id="planos">
+        <h2>Nossos planos</h2>
+        <p>Escolha a solução ideal para você.</p>
+
+        <div class="planos">
+            <div class="plano">
+                <h3>Inicial</h3>
+                <h2>R$ 99,99</h2>
+                <p>Atendimento inicial</p>
+                <p>Orientação básica</p>
+                <p>Suporte</p>
+                <a href="#contato" class="botao">Escolher plano</a>
+            </div>
+
+            <div class="plano">
+                <h3>Essencial</h3>
+                <h2>R$ 199,99</h2>
+                <p>Planejamento inicial</p>
+                <p>Solução personalizada</p>
+                <p>Suporte</p>
+                <a href="#contato" class="botao">Escolher plano</a>
+            </div>
+
+            <div class="plano">
+                <h3>Profissional</h3>
+                <h2>R$ 499,99</h2>
+                <p>Projeto personalizado</p>
+                <p>Integração</p>
+                <p>Acompanhamento</p>
+                <a href="#contato" class="botao">Escolher plano</a>
+            </div>
+
+            <div class="plano">
+                <h3>Avançado</h3>
+                <h2>R$ 799,99</h2>
+                <p>Solução sob medida</p>
+                <p>Integrações avançadas</p>
+                <p>Suporte dedicado</p>
+                <a href="#contato" class="botao">Escolher plano</a>
+            </div>
+        </div>
+    </section>
+    <footer id="contato">
+        <p>Mande sua pergunta para um especialista responder.</p>
+        <div class="campo-contato">
+            <input type="email" placeholder="Digite...">
+            <a href="#contato" class="botao">Enviar</a>
+        </div>
+        <div class="direitos">
+            <p>&copy; 2026 InnovApp - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
